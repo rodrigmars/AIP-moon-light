@@ -3,7 +3,7 @@ Acampamento de código focado no framework Hapi, um projeto simples em Node para
 
 ## Preparo e aquecimento da forja:
 
-### Instalando a versão *20.13.1 do Node*
+### Instalando o *Node na versão 20.13.1*
 ```powershell
 mkdir projetos-node; cd projetos-node; mkdir 20.13.1; cd 20.13.1
 
@@ -27,11 +27,17 @@ git clone git@github.com:<account>/AIP-moon-light.git
 oBS: Após a clonagem não será necessário inicializar o repo local, possibilitando a integração entre o versionamento local e remoto.
 
 ### Editando projeto
-Acessar a pasta *AIP-moon-light*
+Acessar a pasta *AIP-moon-light* e abrir o editor VSCode 
 ```powershell
 cd AIP-moon-light
-```
-Abrir o editor de código VSCode 
-```powershell
+
 code .
+```
+
+## Execução de TESTES
+
+Para a execução de um teste simples usando o módulo genesis
+
+```powershell
+node --test .\test\unit\genesis.test.js
 ```

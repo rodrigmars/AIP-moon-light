@@ -1,0 +1,17 @@
+{
+  "name": "aip-moon-light",
+  "version": "1.0.0",
+  "description": "Acampamento de código focado no framework Hapi, um projeto simples em Node para requisições http de origem job. Os testes serão executados localmente não havendo a necessidade de hospedagem. Se você estiver encorajado a participar do desenvolvimento seja bem vindo ao deserto.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/genesis.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "rodrigmars",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.2.0"
+  }
+}
