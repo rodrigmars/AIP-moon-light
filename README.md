@@ -34,10 +34,10 @@ cd AIP-moon-light
 code .
 ```
 
-## Execução de TESTES
-
-Para a execução de um teste simples usando o módulo genesis
+### Execução dos scripts de test e dev
 
 ```powershell
-node --test .\test\unit\genesis.test.js
+npm run test
+
+npm run dev
 ```
